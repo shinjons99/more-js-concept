@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            width: 85%;
+            height: 30px;
+        }
+        button{
+            height: 35px;
+            padding: 0 10px;
+            cursor: pointer;
+        }
+        #error{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <div>
+            <h1>Create custom error using Try Catch</h1>
+            <div>
+                <input type="text" id="age" placeholder="Enter your age between 18-30">
+                <button onclick="checkAge()" type="submit">Submit</button>
+                <p id="error"></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="try-catch.js"></script>
+</body>
+</html>
